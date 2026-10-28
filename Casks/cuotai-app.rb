@@ -2,8 +2,8 @@
 # frozen_string_literal: true
 
 # Rendered by `cargo xtask package-manifests` from
-# packaging/homebrew/Casks/cuotai.rb.tmpl. Do not edit by hand (PRD 0021 RF5.6).
-cask "cuotai" do
+# packaging/homebrew/Casks/cuotai-app.rb.tmpl. Do not edit by hand (PRD 0021 RF5.6).
+cask "cuotai-app" do
   version "0.81.0"
   sha256 "76ed4a0f4f6f7ae6a37431c8799385687b05614d3afa4af2b8e0a6e1473d3687"
 
@@ -21,9 +21,9 @@ cask "cuotai" do
 
   app "Cuotai.app"
 
-  # Uninstall preservation (PRD 0021 RF8.2): `brew uninstall --cask cuotai`
+  # Uninstall preservation (PRD 0021 RF8.2): `brew uninstall --cask cuotai-app`
   # removes only the application. The paths below are removed solely by an
-  # explicit `brew zap --cask cuotai` (never by a plain uninstall or an
+  # explicit `brew zap --cask cuotai-app` (never by a plain uninstall or an
   # upgrade). The configuration (`~/Library/Application Support/cuotai/`),
   # the local databases and the macOS Keychain entries (`cuotai.oauth`,
   # `cuotai.serve`) are preserved by both; see docs/releasing.md for the
