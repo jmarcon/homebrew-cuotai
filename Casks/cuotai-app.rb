@@ -4,10 +4,10 @@
 # Rendered by `cargo xtask package-manifests` from
 # packaging/homebrew/Casks/cuotai-app.rb.tmpl. Do not edit by hand (PRD 0021 RF5.6).
 cask "cuotai-app" do
-  version "0.84.4"
-  sha256 "214334ce12cc3293649c104bb1e4c68777fb2da1533c00a608947e2a570c242b"
+  version "0.84.5"
+  sha256 "dc2f792ac97e69d29f43f0845698bfd834b92bf770cd43fb5e640aec06e1e86a"
 
-  url "https://github.com/jmarcon/cuotai/releases/download/v0.84.4/Cuotai_#{version}_universal.dmg"
+  url "https://github.com/jmarcon/cuotai/releases/download/v0.84.5/Cuotai_#{version}_universal.dmg"
   name "Cuotai"
   desc "All your AI quotas, usage limits and costs in one place"
   homepage "https://github.com/jmarcon/cuotai"
