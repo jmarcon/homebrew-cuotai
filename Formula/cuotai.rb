@@ -9,12 +9,12 @@ class Cuotai < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/jmarcon/cuotai/releases/download/v0.85.11/cuotai-0.85.11-aarch64-apple-darwin.tar.gz"
-      sha256 "d6ad0a12bac828d80975a95adebe34ec1d31165f0ac52fa6b62be2903e01281a"
+      url "https://github.com/jmarcon/cuotai/releases/download/v0.85.12/cuotai-0.85.12-aarch64-apple-darwin.tar.gz"
+      sha256 "828653905662c1af30b34ede59872fce4816e51febdf72d4cdef89fccc2a8db2"
     end
     on_intel do
-      url "https://github.com/jmarcon/cuotai/releases/download/v0.85.11/cuotai-0.85.11-x86_64-apple-darwin.tar.gz"
-      sha256 "d95b9941718d6022944fd6d746eaf8ae3cfb8ba474ff26715d89401b7067b49a"
+      url "https://github.com/jmarcon/cuotai/releases/download/v0.85.12/cuotai-0.85.12-x86_64-apple-darwin.tar.gz"
+      sha256 "fd37da100c8a7df0f2a9b81265b4cb0b62f1b79f6d27e59a0f00943834fc7c1e"
     end
   end
 
